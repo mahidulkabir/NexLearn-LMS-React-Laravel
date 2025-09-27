@@ -2,6 +2,13 @@ import { useState } from 'react'
 import { BrowserRouter,Route, Routes} from 'react-router-dom'
 import Home from './components/pages/Home'
 import Courses from './components/pages/Courses'
+import Details from './components/pages/Details'
+import Login from './components/pages/Login'
+import Register from './components/pages/Register';
+import MyCourses from './components/pages/account/MyCourses';
+import CoursesEnrolled from './components/pages/account/CoursesEnrolled'
+import WatchCourse from './components/pages/account/WatchCourse';
+import ChangePassword from './components/pages/account/ChangePassword';
 
 
 function App() {
@@ -13,6 +20,14 @@ function App() {
      <Routes>
         <Route path='/' element ={<Home/>}/>
         <Route path='/courses' element={<Courses/>}/>
+        <Route path='/details' element={<Details/>}/>
+        <Route path='/account/login' element={<Login/>}/>
+        <Route path='/account/register' element={<Register/>}/>
+        <Route path='/account/my-courses' element={<MyCourses/>}/>
+        <Route path='/account/courses-enrolled' element={<CoursesEnrolled/>}/>
+        <Route path='/account/watch-course' element={<WatchCourse/>}/>
+        <Route path='/account/change-Password' element={<ChangePassword/>}/>
+
      </Routes>
      </BrowserRouter>
     </>
