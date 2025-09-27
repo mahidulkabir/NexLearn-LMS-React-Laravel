@@ -1,0 +1,20 @@
+1. Auto import-(automatic loaded/import source)
+2. Auto rename tag
+3. ESlint (Javascript error correction and show suggestion reference )
+4. npm intellisense (if import node module any package )
+5. Path intellisense (automatically path suggest)
+6. Postman (for restApi implement and details)
+7. prettier code formatter extension (code structure and format correction)
+8. Reactjs code snippets (create or generate shortcut component like rsc)
+9. snipped(select code then control + sheft +p )
+10. stylelint(to correct css code)
+11. Tailwind css intellisense (suggested class)
+12. vscode react refactor (when i need const/function or anything else then use it given
+suggestion =
+a. Extract JSX code parts to a new class or functionnal component
+b. Supports TypeScript and TSX
+c. Works with classes, functions and arrow functions
+d. Handles key attribute and function bindings
+e. Compatible with React Hooks API
+13. ) vscode icon (add extension logo add)
+14.

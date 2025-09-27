@@ -1,0 +1,25 @@
+npm install react-router-dom
+
+npm install react-hook-form
+
+npm install react-hot-toast
+
+npm install react-icons
+
+npm install jodit-react
+
+npm install react-simple-star-rating
+
+npm install -D sass-embedded
+
+npm install @hello-pangea/dnd
+
+npm install react-filepond filepond
+
+npm install filepond-plugin-image-exif-orientation
+
+npm install filepond-plugin-image-preview
+
+npm install filepond-plugin-file-validate-type
+
+npm install react-player
