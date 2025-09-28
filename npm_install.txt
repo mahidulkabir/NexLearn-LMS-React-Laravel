@@ -23,3 +23,5 @@ npm install filepond-plugin-image-preview
 npm install filepond-plugin-file-validate-type
 
 npm install react-player
+
+npm install react-bootstrap bootstrap

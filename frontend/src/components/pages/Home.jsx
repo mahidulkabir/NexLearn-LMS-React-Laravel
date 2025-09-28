@@ -1,10 +1,11 @@
 import React from 'react';
 import Layout from '../common/Layout';
+import Hero from '../common/Hero';
 
 const Home = () => {
     return (
         <Layout>
-            This is From Home Page 
+            <Hero/>
          </Layout>
     );
 };
