@@ -24,4 +24,6 @@ npm install filepond-plugin-file-validate-type
 
 npm install react-player
 
-npm install react-bootstrap bootstrap
+npm install react-bootstrap bootstrap 
+
+npm install bootstrap-icons
