@@ -59,7 +59,7 @@ const FeaturedCourses = () => {
                         level='Advance'
                         enrolled='10'
                         customClasses="col-lg-3 col-md-6"
-                    />   s            
+                    />             
                     
                 </div>
             </div>

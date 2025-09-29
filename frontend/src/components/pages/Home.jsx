@@ -3,6 +3,9 @@ import Layout from '../common/Layout';
 import Hero from '../common/Hero';
 import FeaturedCategories from '../common/FeaturedCategories';
 import FeaturedCourses from '../common/FeaturedCourses';
+import Newsletter from './Newsletter';
+
+
 
 const Home = () => {
     return (
@@ -10,6 +13,7 @@ const Home = () => {
             <Hero/>
             <FeaturedCategories/>
             <FeaturedCourses/>
+            <Newsletter/>
          </Layout>
     );
 };
