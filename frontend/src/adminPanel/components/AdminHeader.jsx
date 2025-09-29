@@ -1,5 +1,5 @@
 import React from 'react';
-
+import pic1 from '../../assets/images/avatars/avatar-2.png'
 const AdminHeader = () => {
     return (
         <>
@@ -39,121 +39,7 @@ const AdminHeader = () => {
                         <i className="bx bx-search" />
                       </a>
                     </li>
-                    <li className="nav-item dropdown dropdown-laungauge d-none d-sm-flex">
-                      <a
-                        className="nav-link dropdown-toggle dropdown-toggle-nocaret"
-                        href="avascript:;"
-                        data-bs-toggle="dropdown"
-                      >
-                        <img src="assets/images/county/02.png" width={22} alt />
-                      </a>
-                      <ul className="dropdown-menu dropdown-menu-end">
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/01.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">English</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/02.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">Catalan</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/03.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">French</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/04.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">Belize</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/05.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">Colombia</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/06.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">Spanish</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/07.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">Georgian</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            className="dropdown-item d-flex align-items-center py-2"
-                            href="javascript:;"
-                          >
-                            <img
-                              src="assets/images/county/08.png"
-                              width={20}
-                              alt
-                            />
-                            <span className="ms-2">Hindi</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
+                    {/* dark mode toggle  */}
                     <li className="nav-item dark-mode d-none d-sm-flex">
                       <a
                         className="nav-link dark-mode-icon"
@@ -162,7 +48,8 @@ const AdminHeader = () => {
                         <i className="bx bx-moon" />
                       </a>
                     </li>
-                    <li className="nav-item dropdown dropdown-app">
+                    {/* menu 1  */}
+                    {/* <li className="nav-item dropdown dropdown-app">
                       <a
                         className="nav-link dropdown-toggle dropdown-toggle-nocaret"
                         data-bs-toggle="dropdown"
@@ -462,11 +349,12 @@ const AdminHeader = () => {
                               </a>
                             </div>
                           </div>
-                          {/*end row*/}
+                       
                         </div>
                       </div>
-                    </li>
-                    <li className="nav-item dropdown dropdown-large">
+                    </li> */}
+                    {/* menu 2  */}
+                    {/* <li className="nav-item dropdown dropdown-large">
                       <a
                         className="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative"
                         href="#"
@@ -678,8 +566,9 @@ const AdminHeader = () => {
                           </div>
                         </a>
                       </div>
-                    </li>
-                    <li className="nav-item dropdown dropdown-large">
+                    </li> */}
+                    {/* menu 3 */}
+                    {/* <li className="nav-item dropdown dropdown-large">
                       <a
                         className="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative"
                         href="#"
@@ -955,7 +844,7 @@ const AdminHeader = () => {
                           </div>
                         </a>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 {/* profile  */}
@@ -968,7 +857,7 @@ const AdminHeader = () => {
                     aria-expanded="false"
                   >
                     <img
-                      src="assets/images/avatars/avatar-2.png"
+                      src={pic1}
                       className="user-img"
                       alt="user avatar"
                     />
