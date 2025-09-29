@@ -1,5 +1,5 @@
 import React from 'react';
-
+import footerLogo from '../../assets/images/logofooter.png'
 const Footer = () => {
     return (
        <>
@@ -9,7 +9,7 @@ const Footer = () => {
                 
                 <div className='col-lg-3 col-12'>
                     <div className='col-lg-12 col-md-6 col-12 pe-lg-5'>
-                        <img className='m-0 p-0' src="./src/assets/images/logofooter.png" alt="main site logo" width="200px" />
+                        <img className='m-0 p-0' src={footerLogo} alt="main site logo" width="200px" />
                         <p className='mt-2'>Join our Learning Management System and explore a wide range of courses to enhance your skills and achieve your goals.</p>
                     </div>
                 </div>

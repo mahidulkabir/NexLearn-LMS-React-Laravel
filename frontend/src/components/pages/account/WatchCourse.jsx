@@ -1,10 +1,12 @@
 import React from 'react';
+import Layout from '../../common/Layout';
 
 const WatchCourse = () => {
     return (
-        <div>
-            Watch Courses Page 
-        </div>
+      <Layout>
+
+        
+      </Layout>
     );
 };
 
