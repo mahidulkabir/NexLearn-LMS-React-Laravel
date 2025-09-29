@@ -1,19 +1,21 @@
 import React from 'react';
 import {Navbar , Nav, Container}  from 'react-bootstrap';
-
+import logo from '../../assets/images/logoWObg.png'
 const Header = () => {
     return (
        <>
         <Navbar expand="md" className="bg-white shadow-lg header py-3">
                 <Container >
-                    <Navbar.Brand href="/"><img src="./src/assets/images/logoWObg.png" alt="main site logo" width="200px" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src={logo} alt="main site logo" width="200px" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                     <nav    
-                        className="me-auto my-2 my-lg-0"
+                        className="ms-auto my-2 my-lg-0 d-flex gap-3 me-4   "
                         navbarScroll
                     >
                         <Nav.Link href="/courses" className=''>All Courses</Nav.Link>
+                        <Nav.Link href="#" className=''>About Us</Nav.Link>
+                        <Nav.Link href="#" className=''>Contact Us</Nav.Link>
                         {/* <Form className="d-flex me-3 ms-lg-3 ms-md-3">
                             <div className="custom-search-box">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

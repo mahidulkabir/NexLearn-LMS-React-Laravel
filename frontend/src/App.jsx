@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { BrowserRouter,Route, Routes} from 'react-router-dom'
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import Home from './components/pages/Home'
 import Courses from './components/pages/Courses'
 import Details from './components/pages/Details'
