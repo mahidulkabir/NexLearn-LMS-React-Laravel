@@ -7,9 +7,9 @@ const Footer = () => {
         <div className='pt-5 container mt-5 '>
             <div className='row pb-3 gy-4 justify-content-center'>
                 
-                <div className='col-lg-3 col-12'>
+                <div className='col-lg-3 col-12 '>
                     <div className='col-lg-12 col-md-6 col-12 pe-lg-5'>
-                        <img className='m-0 p-0' src={footerLogo} alt="main site logo" width="200px" />
+                        <img className='m-0 p-0 mb-4' src={footerLogo} alt="main site logo" width="200px" />
                         <p className='mt-2'>Join our Learning Management System and explore a wide range of courses to enhance your skills and achieve your goals.</p>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className='row copyright'>
                 <div className='col-md-12 text-center py-4'>
-                    &copy; 2025 All Rights Reserverd
+                    &copy; 2025 Mahidul Kabir : :  All Rights Reserverd
                 </div>
             </div>
         </div>
