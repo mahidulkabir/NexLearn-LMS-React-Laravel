@@ -10,6 +10,8 @@ import MyCourses from './components/pages/account/MyCourses';
 import CoursesEnrolled from './components/pages/account/CoursesEnrolled'
 import WatchCourse from './components/pages/account/WatchCourse';
 import ChangePassword from './components/pages/account/ChangePassword';
+// admin panel pages 
+import AdminHome from './adminPanel/pages/AdminHome';
 
 
 function App() {
@@ -28,6 +30,10 @@ function App() {
         <Route path='/account/courses-enrolled' element={<CoursesEnrolled/>}/>
         <Route path='/account/watch-course' element={<WatchCourse/>}/>
         <Route path='/account/change-Password' element={<ChangePassword/>}/>
+
+        {/* admin pages here  */}
+
+        <Route path='/admin/dashboard' element={<AdminHome/>}/>
 
      </Routes>
      </BrowserRouter>
