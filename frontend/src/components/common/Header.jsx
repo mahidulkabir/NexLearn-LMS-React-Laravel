@@ -16,6 +16,7 @@ const Header = () => {
                         <Nav.Link href="/courses" className=''>All Courses</Nav.Link>
                         <Nav.Link href="#" className=''>About Us</Nav.Link>
                         <Nav.Link href="#" className=''>Contact Us</Nav.Link>
+                        <Nav.Link href="/account/login" className=''>Login</Nav.Link>
                         {/* <Form className="d-flex me-3 ms-lg-3 ms-md-3">
                             <div className="custom-search-box">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
