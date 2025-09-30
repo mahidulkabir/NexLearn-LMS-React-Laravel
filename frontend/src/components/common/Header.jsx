@@ -26,7 +26,7 @@ const Header = () => {
                             </div>
                         </Form> */}
                     </nav>
-                    <a href='/account/my-learning' className="btn btn-primary">My Account</a>
+                    <a href='/account/my-courses' className="btn btn-primary">My Account</a>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
