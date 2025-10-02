@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter,Route, Routes} from 'react-router-dom'
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Home from './components/pages/Home'
 import Courses from './components/pages/Courses'
 import Details from './components/pages/Details'
@@ -12,6 +13,7 @@ import WatchCourse from './components/pages/account/WatchCourse';
 import ChangePassword from './components/pages/account/ChangePassword';
 // admin panel pages 
 import AdminHome from './adminPanel/pages/AdminHome';
+
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
         {/* admin pages here  */}
 
         <Route path='/admin/dashboard' element={<AdminHome/>}/>
+
 
      </Routes>
      </BrowserRouter>
